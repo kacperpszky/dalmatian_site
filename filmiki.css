@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+    cursor: url('Resources/kursor.png'),auto;
+}
+body{
+    width:100;
+    height:100vh;
+    margin: 0;
+    background-color: rgb(250, 240, 240);
+    font-size:100px;
+    font-family: 'League Gothic', sans-serif;
+    cursor: url('Resources/kursor.png'),auto;
+}
+
+.menu{
+    background-color: black; 
+    width: 100%;
+    height:55px;
+    position: fixed;
+    z-index: 1;
+    cursor: url('Resources/kursor.png'),auto;
+}
+
+.menu a:nth-child(1){
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    cursor: url('Resources/kursor.png'),auto;
+}
+.menu a:nth-child(2){
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    cursor: url('Resources/kursor.png'),auto;
+}
+.menu a:nth-child(3){
+    float: right;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    cursor: url('Resources/kursor.png'),auto;
+}
+.menu a:nth-child(4){
+  float: right;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 0.5em;
+  cursor: url('Resources/kursor.png'),auto;
+}
+.menu a:nth-child(5){
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    text-align: center;
+    cursor: url('Resources/kursor.png'),auto;
+}
+
+.MainCenter{
+    box-sizing: border-box;
+    padding: 0.5em;
+    cursor: url('Resources/kursor.png'),auto;
+}
+
+.MainCenter::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 37.5%;
+  height: 100%;
+  width: 25%;
+  transform-origin: center;
+}
+.MainCenter::after {
+  border-top: 0.2em solid rgb(255, 255, 255);
+  border-bottom: 0.2em solid rgb(255, 255, 255);
+  transform: scale3d(0, 1, 1);
+}
+.MainCenter:hover::before, .MainCenter:hover::after {
+  transform: scale3d(1, 1, 1);
+  transition: transform 900ms;
+}
+
+.videoMain{
+
+    height: 100vh;
+    width: 100;
+    position: relative;
+}
+.video{
+  width:100%; 
+  height: auto;
+  display: block;
+}
+
+#videoTitle{
+  width: 100%; 
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styling * { 
+  text-align: center;
+  color:#ffffff;
+}
+.styling h1 {
+  text-align: center;
+  font-size: 2em; 
+  font-family: 'League Gothic', sans-serif;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+#black_title {
+    color:rgb(98, 46, 2);
+    
+}
+video {
+    width: 99vw;
+    height: auto;
+    border-radius: 40px;
+}
+#video1 {
+    margin-top: 15%;
+}
+
+#video4, #video5{
+    width: 30%;
+    height: auto;
+}
+
+#video4{
+    margin-left: 15%;
+}
+#video5{
+    margin-left: 10%;
+}

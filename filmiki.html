@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "icon" href ="Resources/dalman75.png" type = "image/x-icon">
+        <link rel="stylesheet" href="filmiki.css" type="text/css">
+        <script src="index.js"></script>
+        <title>Anima Cordis</title>
+        
+    </head>
+    <body onclick = "document.getElementById('audio2').play();">
+      <audio id="audio2" src="Resources/piesDzwiekZFilmemKrotki.mp3"></audio>
+       <a name="index"></a>
+        <div class="menu">
+            <a href="#trening1"><span>Trening 1</span></a>
+            <a href="#trening2"><span>Trening 2</span></a>
+            <a href="#Wystawa"><span>Wystawa</span></a>
+            <a href="#Wypoczynek"><span>Wypoczynek</span></a>
+            <a class="MainCenter" href="index.html">Anima Cordis D <img id="mainFoto" src="Resources/stopa.png" onmouseover="changeColor()"> lmatians</a>
+        </div>
+        <div class="videoMain">
+            <img class="video" src="Resources/14.jpg" autoplay muted loop></img>
+            <div id="videoTitle" class="styling"> 
+                <h1 href="index.html"><span id="white_title">F</span><span id="black_title">I</span><span id="white_title">L</span><span id="black_title">M</span><span id="white_title">I</span><span id="black_title">K</span><span id="white_title">I</span></h1>
+            </div>
+            <a name="trening1"></a>
+        </div>
+        
+        <video id="video1" src="Resources/tr1.mp4" controls muted></video>
+        
+        <a name="Wystawa"></a><video id="video2"  src="Resources/tr4.mp4" controls muted></video>
+        
+        <a name="trening2"></a><video id="video3"  src="Resources/tr5.mp4" controls muted></video>
+        
+        <a name="Wypoczynek"></a><video id="video4"  src="Resources/plaza1.mp4" controls muted></video>
+        <video id="video5"  src="Resources/plaza2.mp4" controls muted></video>
+
+
+       
+
+
+           
+    </body>
+</html>
